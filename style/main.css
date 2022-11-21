@@ -1,0 +1,117 @@
+body {
+    margin: 0 auto;
+}
+/*body===================================*/
+.wrapper {
+    margin: 110px 0 0 0 ;
+    width: 1349px; 
+    text-align: center;
+}
+/*main_div====================================*/
+.city {
+    background:url(../img/city.png) no-repeat center;
+    height: 325px;
+    background-color:red;
+    filter: brightness(90%);
+    background-size: 100% 100%;
+}
+
+/*main_h1===================================*/
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+}
+/*main_hr===================================*/
+.line {
+    border: 0;
+    width: 64px;
+    height: 2px;
+    background-color: orange;
+    margin-bottom: 30px;
+}
+/*main_p===================================*/
+.text { 
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+/*main_h2===============================*/
+.bold {
+    margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+/*main_section===============================*/
+.box {
+    vertical-align: bottom;
+    display: inline-block;
+    width: 340px;
+    height: 197px;
+    margin: 80px 15px;
+}
+/*main_div===============================*/
+.circle {
+    margin: 0px 140px;
+    position: relative;
+    border:  2px solid  orange;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+/*main_section===============================*/
+.images {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/*main_div(city)===============================*/
+.title_city {
+    margin: 0;
+    padding-top: 79px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+}
+/*main_div(sity)_hr===============================*/
+.line_city {
+    border: 0;
+     width: 64px;
+    height: 2px;
+    background-color: white;
+    margin: 26px auto 23PX;
+}
+/*main_div(sity)_p===============================*/
+.text_city {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin: 0 auto 33px;
+    color: white;
+}
+/*main_div(sity)=====================================*/
+.button {
+    width: 135px;
+    height: 42px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+}
+/*footer==================================*/
+.footer {
+    height: 103px;
+    text-align: center;
+    padding-top: 55px;
+    background: black;
+}
+/*footer_p=======================================*/
+.text_footer {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px auto;
+    color: white;
+}
+/*footer_div*/
+li {
+    display: inline-block;
+    list-style-type: none;
+}
